@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "raude";
+    src: url(../font/edf7f-eirik-raude.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: "raude";
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(34, 22, 58);
+}
+
+/* global style */
+.page {
+    background-color: rgba(88, 32, 241, 0.685);
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.logo-img {
+    border: 4px solid #fff;
+    border-radius: 150px;
+
+    background-color: rgb(18, 3, 34);
+}
+
+.logo img {
+    box-sizing: border-box;
+
+    max-width: 250px;
+    width: 100%;
+
+    align-items: center;
+}
+
+.text-l-h1 {
+    text-align: center;
+    color: rgb(18, 3, 34);
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.text-l-p {
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: 15px;
+    color: rgb(43, 8, 82);
+}
+
+.text--p {
+    color: rgb(17, 4, 32);
+    font-size: 24px;
+}
+
+/* header */
+
+.contact-numbers {
+    display: block;
+    margin: auto;
+}
+
+.btn-ctn {
+    box-sizing: border-box;
+    
+    text-align: center;
+}
+
+.btn-ctn img{
+    max-width: 112px;
+    width: 100%;  
+    height: auto;
+}
+
+.btn-ctn a {
+    margin-bottom: 5px;
+}
+
+
+.btn-contact,
+.btn-inst,
+.btn-vk,
+.btn-telega {
+    margin: 5px;
+
+    border-radius: 30px;
+}
+
+.contact-numbers,
+.contact-inst,
+.contact-vk,
+.contact-telega {
+    padding: 7px;
+}
+
+.btn-contact:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
+.btn-inst:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
+.btn-vk:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
+.btn-telega:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
+
+
+
+.btn-contact a:hover {
+    color: #fff;
+}
+
+.btn-inst a:hover {
+    color: #fff;
+}
+
+.btn-vk a:hover {
+    color: #fff;
+}
+
+.btn-telega a:hover {
+    color: #fff;
+}
+
+/* btn */
+
+.footer {
+    background-color: rgba(2, 0, 3, 0.705);
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 22px;
+} 
+
+.footer-icons {
+    flex-wrap: wrap;
+}
+
+.copyright {
+    font-size: 40px;
+    color: #191938;
+}
